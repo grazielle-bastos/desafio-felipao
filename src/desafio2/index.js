@@ -35,5 +35,4 @@ let derrotasHeroi = parseInt(readlineSync.question("Digite a quantidade de derro
 let nivelHeroi = calcularSaldoRanking(vitoriasHeroi, derrotasHeroi);
 
 // Exibe a mensagem com o saldo e o nível do herói
-console.log(`O Herói tem um saldo de ${vitoriasHeroi - derrotasHeroi} e está no nível de ${nivelHeroi}`);
-
+console.log(`\nO Herói tem um saldo de ${vitoriasHeroi - derrotasHeroi} e está no nível de ${nivelHeroi}\n`); 
